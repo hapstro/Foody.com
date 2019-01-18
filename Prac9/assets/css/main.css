@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: nunito light;
+}
+
+body {
+    background-color: rgb(204, 146, 146)
+       /* background-image: url(../images/food.jpg);
+       background-repeat: no-repeat; */
+}
+ 
+.wrapper {
+    height: 100px;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrapper>ul {
+    justify-content: flex-end;
+    margin-right: 2%
+}
+
+.svg-icon {
+    justify-content: flex-start;
+  margin-left: 2%
+
+}
+
+ul {
+    display: flex;
+    float: right;
+    padding: 1px 10px;
+    list-style-type: none;
+    color: rgb(39, 39, 39);
+    
+}
+
+li {
+    padding: 10px 10px;
+    width: 60px;
+    text-align: center;
+    display: block;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+   
+    
+}
+
+li:hover {
+    background-color: rgba(233, 233, 233, 0.767);
+    cursor: pointer;
+}
+
+.box {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    /* text-align: center; */
+    width: 100vw;
+    height: 200px;
+    flex-direction: column;
+    text-align: center
+}
+
+h4{
+    display: flex;
+    text-align: right;
+    justify-content: space-around;
+    /* margin-right: 35%; */
+}
+.footer {
+    width: 100vw;
+    height: 43vh;
+    display: flex;    
+}
+
+.box {
+    min-width: 300px;
+    height: 300px;
+    transition: background .3s ease-in-out;
+}
+
+
+.yellow {
+ 
+    background-image: url("../images/Still Life Photography.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    flex-basis: 33%;
+}
+
+.red {
+    background-image: url("../images/food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-basis: 34%;
+}
+
+.blue {
+    background-image: url("../images/Still Life Photography1.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    flex-basis: 33%;
+}
+
+.box:hover {
+    background-position:top;
+}
